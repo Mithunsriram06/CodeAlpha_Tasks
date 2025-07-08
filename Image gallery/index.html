@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Image Gallery</h1>
+
+    <div class="gallery-container">
+        <img src="images/nature1.jpg" alt="An Aesthetic view of japanese lake with mountain." data-category="nature">
+        <img src="images/nature2.jpg" alt="A cinematic view of a lake with mountains in the background." data-category="nature">
+        <img src="images/nature3.jpg" alt="An amazing waterfalls in the middle of a forest." data-category="nature">
+        <img src="images/nature4.jpg" alt="An artistic view of a plant's leaf with the sun in the background" data-category="nature">
+        <img src="images/animal1.jpg" alt="Two cute bunnies kissing together in a grassland." data-category="animals">
+        <img src="images/animal2.jpeg" alt="A beautiful white kitty standing from a sofa." data-category="animals">
+        <img src="images/animal3.jpg" alt="An aggresive looking tiger looking towards the camera in pride." data-category="animals">
+        <img src="images/animal4.jpeg" alt="An orange fox standing in icy mountain region." data-category="animals">
+    </div>
+
+    <div id="lightbox" class="lightbox">
+        <span class="close-btn">&times;</span>
+        <span class="prev-btn">&#10094;</span>
+        <span class="next-btn">&#10095;</span>
+        <img class="lightbox-content" id="lightbox-img">
+        <div id="lightbox-caption"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
